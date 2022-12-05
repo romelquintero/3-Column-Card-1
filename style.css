@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.box-container {
+  margin: 0 auto;
+  max-width: 92rem;
+  display: flex;
+  overflow: hidden;
+  border-radius: 0.8rem;
+}
+
+.container {
+  padding: 4.8rem;
+}
+
+.col-orange {
+  background-color: #e38826;
+}
+
+.col-teal {
+  background-color: #006970;
+}
+
+.col-dark-teal {
+  background-color: #004241;
+}
+
+.heading {
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 4rem;
+  margin-top: 3.5rem;
+}
+
+.description {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  line-height: 2.5rem;
+  opacity: 0.75;
+}
+
+.container a {
+  text-decoration: none;
+  background-color: #fff;
+  display: inline-block;
+  padding: 1.2rem 3.15rem;
+  line-height: 2.5rem;
+  border-radius: 2.5rem;
+  margin-top: 8.3rem;
+  font-size: 1.5rem;
+  border: 2px solid #fff;
+}
+
+.btn-orange {
+  color: #e38826;
+}
+
+.btn-teal {
+  color: #006970;
+}
+
+.btn-dark-teal {
+  color: #004241;
+}
+
+.container a:hover,
+.container a:active {
+  background-color: transparent;
+  color: #fff;
+}
